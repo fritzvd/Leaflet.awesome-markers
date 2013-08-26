@@ -14,6 +14,7 @@ Version: 1.0
   top:0;
   display: block;
   text-align: center;
+  opacity: 0.90;
 }
 
 .awesome-marker-shadow {
@@ -36,7 +37,7 @@ Version: 1.0
 }
 
 .awesome-marker-shadow-double {
-  background: url('images/markers-shadow.png') no-repeat 0 0;
+  background: url('images/markers-shadow-double.png') no-repeat 0 0;
   width: 72px;
   height: 32px;
 }
@@ -53,6 +54,22 @@ Version: 1.0
   background-image: url('images/markers-shadow@2x.png');
   background-size: 35px 16px;
  }
+  /* Marker setup */
+  .awesome-marker-double {
+    background: url('images/markers-soft-double@2x.png') no-repeat 0 0;
+    width: 70px;
+    height: 92px;
+    position:absolute;
+    left:0;
+    top:0;
+    display: block;
+    text-align: center;
+  }
+  .awesome-marker-shadow-double {
+    background: url('images/markers-shadow-double@2x.png') no-repeat 0 0;
+    width: 72px;
+    height: 32px;
+  }
 }
 
 .awesome-marker i {
