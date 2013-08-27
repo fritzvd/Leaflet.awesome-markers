@@ -38,9 +38,9 @@ L.AwesomeMarkers.Icon = L.Icon.extend({
                           90 * options.size_factor];
       options.iconAnchor = [34 * options.size_factor, 
                             92 * options.size_factor];
-      options.shadowAnchor = [10, 12];
-      options.shadowSize = [72 * options.size_factor, 
-                            32 * options.size_factor];
+      options.shadowAnchor = [17, 27];
+      options.shadowSize = [72, 
+                            32];
     }
     options = L.setOptions(this, options);
   },
@@ -144,4 +144,6 @@ L.AwesomeMarkers.icon = function (options) {
 };
 
 }(this, document));
+
+
 
